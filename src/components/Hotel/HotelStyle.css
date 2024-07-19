@@ -1,0 +1,140 @@
+.card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.hotel-image {
+  border-radius: 0.5rem;
+  width: 20rem;  
+  height: 20rem;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.input-group {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
+
+.input-group .btn {
+  border-left: 0;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer .container {
+  max-width: 960px;
+}
+
+.text-decoration-none {
+  color: #343a40;
+}
+
+.img-content {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+}
+
+.reservation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.753);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 0.25rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(4, 62, 189, 0.822);
+  color: white;
+  position: relative;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  padding: 0 8px;
+}
